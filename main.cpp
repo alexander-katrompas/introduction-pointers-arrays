@@ -75,7 +75,7 @@ int main() {
     // the new array is created at run time like this
     array2 = new int[SIZE];
     
-    /* all arrays automatically pass by value. so regardless of how it was
+    /* all arrays automatically pass by reference. so regardless of how it was
      * created we can pass them to functions and the functions have direct
      * access and control over them. we do not need * or & to use array
      * names because all arrays are pointers, regardless of how they
